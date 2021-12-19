@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/styles.css">
+    <link rel="icon" href="./learning.jpg">
+    <title>HTML : Learning Platform</title>
+</head>
+
+<body style="height: 2080px;">
+    <div class="top">
+        <div class="btn-login"><a href="login.html" id="try"> Login </a></div>
+        <a href="index.html" style="text-decoration: none;">
+            <h1 id="h">Learning Platform</h1>
+        </a>
+    </div>
+
+    <div class="menu">
+        <ul class="important">
+            <li style="float: left; width: 12.5%;"><a href="learn_html.html" id="a" style="display:inline-block; padding-left: 20px;">HTML</a>
+            </li>
+            <li style="float: left; width: 12.5%;"><a href="learn_css.html" id="a" style="display:inline-block; padding-left: 20px;">CSS</a>
+            </li>
+            <li style="float: left; width: 12.5%;"><a href="learn_javascript.html" id="a" style="display:inline-block; padding-left: 20px;">JavaScript</a>
+            </li>
+        </ul>
+    </div>
+
+    <div id="div" style="height: 2080px;">
+        <div class="left" style="height: 2080px;">
+            <h3>HTML</h3>
+            <a href="learn_html.html" id="left">HTML Elements</a>
+            <a href="learn_html.html" id="left">HTML Paragraphs</a>
+            <h3>CSS</h3>
+            <a href="learn_css.html" id="left">CSS Selectors</a>
+            <a href="learn_css.html" id="left">CSS Colors</a>
+            <h3>JavaScript</h3>
+            <a href="learn_javascript.html" id="left">JavaScript Syntax</a>
+            <a href="learn_javascript.html" id="left">JavaScript Comments</a>
+        </div>
+
+        <div class="right" style="height: 2080px;">
+            <div class="main-head" style="text-align:center;">
+                <div id="grey">
+                    <h1>HTML : The language for building web pages</h1>
+                </div>
+            </div>
+            <div class="left1">
+                <div class="content">
+                    <h2>What is HTML?</h2>
+                    <h3>
+                        <li>HTML stands for Hyper Text Markup Language</li>
+                        <li> HTML is the standard markup language for creating Web pages</li>
+                        <li>HTML describes the structure of a Web page</li>
+                        <li>HTML consists of a series of elements</li>
+                        <li>HTML elements tell the browser how to display the content</li>
+                        <li>HTML elements label pieces of content such as "this is a heading", "this is a paragraph", "this is a link", etc.</li>
+                    </h3>
+                </div>
+            </div><br>
+            <div class="right1">
+                <div id="Example">
+                    <h4 style="text-align:center;">
+                        <div color="grey">HTML Example:</div>
+                    </h4>
+                    <p id="try1">
+                        &lt !DOCTYPE html &gt <br> &lt html &gt<br> &lt title &gt HTML Tutorial &lt /title &gt<br> &lt body &gt<br><br> &lt h1 &gt This is a heading &lt /h1 &gt<br> &lt p &gt This is a paragraph. &lt /p &gt<br><br> &lt /body &gt<br> &lt
+                        /html &gt<br><br>
+                    </p><br>
+                    <div class="btn-re"><a href="learn_html.html" id="try">Try It Yourself </a></div><br>
+                </div>
+            </div>
+            <div class="second" style="height: 600px;">
+                <div id="right2">
+                    <h2>Here are two ways to specify the URL in the src attribute:</h2>
+                    <div class="content">
+                        <h3>1. Absolute URL - Links to an external image that is hosted on another website. Example: src="https://www.w3schools.com/images/img_girl.jpg". Notes: External images might be under copyright. If you do not get permission to use
+                            it, you may be in violation of copyright laws. In addition, you cannot control external images; it can suddenly be removed or changed.</h3>
+                    </div>
+
+                    <div class="content">
+                        <h3>2. Relative URL - Links to an image that is hosted within the website. Here, the URL does not include the domain name. If the URL begins without a slash, it will be relative to the current page. Example: src="img_girl.jpg". If
+                            the URL begins with a slash, it will be relative to the domain. Example: src="/images/img_girl.jpg". Tip: It is almost always best to use relative URLs. They will not break if you change domain.</h3>
+                    </div>
+
+                </div>
+                <div id="left2">
+                    <h2>Example Explained : </h2>
+                    <div class="content">
+                        <h3>The &lt;!DOCTYPE html&gt; declaration defines that this document is an HTML5 document</h3>
+                        <h3> The &lt;html&gt; element is the root element of an HTML page</h3>
+                        <h3> The &lt;head&gt; element contains meta information about the HTML page</h3>
+                        <h3> The &lt;title&gt; element specifies a title for the HTML page (which is shown in the browser's title bar or in the page's tab)</h3>
+                        <h3> The &lt;body&gt; element defines the document's body, and is a container for all the visible contents, such as headings, paragraphs, images, hyperlinks, tables, lists, etc.</h3>
+                        <h3> The &lt;h1&gt; element defines a large heading</h3>
+                        <h3> The &lt;p&gt; element defines a paragraph</h3>
+                    </div>
+                </div>
+            </div>
+
+            <div class="third" style="height: 300px;">
+                <div id="left3">
+                    <h2>HTML Links - The target Attribute</h2>
+                    <div class="content">
+                        <h3>By default, the linked page will be displayed in the current browser window. To change this, you must specify another target for the link.<br> The target attribute specifies where to open the linked document.<br> The target attribute
+                            can have one of the following values:<br> _self - Default. Opens the document in the same window/tab as it was clicked<br> _blank - Opens the document in a new window or tab<br> _parent - Opens the document in the parent frame<br>                            _top - Opens the document in the full body of the window</h3>
+                    </div>
+
+                </div>
+                <div id="right3">
+                    <div id="Example">
+                        <h4 style="text-align:center;">
+                            <div color="grey">HTML Links Example:</div>
+                        </h4>
+                        <p id="try1">
+                            &lt;p&gt;&lt;a href="https://www.google.com/"&gt;Google&lt;/a&gt;&lt;/p&gt;<br><br> &lt;p&gt;&lt;a href="/css/default.asp"&gt;CSS Tutorial&lt;/a&gt;&lt;/p&gt;<br><br> &lt;a href="default.asp"&gt;<br> &lt;img src="smiley.gif"
+                            alt="HTML tutorial" style="width:42px;height:42px;"&gt;<br> &lt;/a&gt;
+                            <br>
+                        </p><br>
+                        <div class="btn-re"><a href="learn_html.html" id="try">Try It Yourself </a></div><br>
+                    </div>
+                </div>
+            </div>
+
+            <div class="fourth">
+                <div id="left4">
+                    <h3 style="text-align: center;">CSS</h3>
+                    <h3 style="text-align: center;">The language for styling web pages</h3>
+                    <div style="text-align: center;"><a href="./learn_css.html" id="click">LEARN CSS</a></div>
+                </div>
+                <div id="right4">
+                    <h3 style="text-align: center;">JavaScript</h3>
+                    <h3 style="text-align: center;">The language for programming web pages</h3>
+                    <div style="text-align: center;"><a href="./learn_javascript.html" id="click">LEARN JavaScript</a></div>
+                </div>
+            </div>
+
+
+        </div>
+    </div>
+</body>
+
+</html>
